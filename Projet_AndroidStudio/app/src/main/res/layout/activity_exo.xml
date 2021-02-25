@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:gravity="center">
+
+
+
+    <TextView
+
+        android:id="@+id/operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Test"
+        />
+
+    <TextView
+        android:id="@+id/mess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Trouve le nombre a la place des [ ]"
+        />
+
+    <EditText
+        android:id="@+id/reponse"
+        android:layout_width="50dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+
+        />
+
+
+    <Button
+        android:id="@+id/envoyer"
+        android:textSize="20dp"
+        android:text="Valider"
+        android:background="@drawable/custom_buttons"
+        android:textColor="#ffffff"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_margin="20dp"
+        />
+
+
+</LinearLayout>

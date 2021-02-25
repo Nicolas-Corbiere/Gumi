@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:gravity="center">
+
+    <Button
+        android:id="@+id/facile"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="Facile"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_buttons"
+        android:textColor="#ffffff"
+
+        />
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="Normal"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_buttons"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:id="@+id/difficile"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="Difficile"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_buttons"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>

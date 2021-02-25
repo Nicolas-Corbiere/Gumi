@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/Bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue !"
+        android:layout_marginBottom="45dp"
+        android:textSize="40dp"
+        />
+    <TextView
+        android:id="@+id/phrase1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prêt à t'entrainer ?"
+        android:layout_marginBottom="40dp"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/entrer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:textSize="30dp"
+        android:text="Allons-y !"
+        android:textColor="#ffffff"
+        android:background="@drawable/custom_buttons"
+        android:paddingHorizontal="10dp"
+
+        />
+
+</LinearLayout>

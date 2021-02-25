@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gumi</string>
+    <!-- barre du bas -->
+    <string name="title_sports">Liste de sports</string>
+    <string name="title_favoris">Favoris</string>
+    <string name="noCalc">RAPPEL : Calculatrice interdite !</string>
+    <string name="num">Vous aimez notre application et voulez la partager à un ami ?
+        Noter le numéro de téléphone ci-dessous et il pourra télécharger notre application !</string>
+</resources>

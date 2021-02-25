@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:gravity="center">
+
+    <Button
+        android:id="@+id/ope10"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:background="@drawable/custom_buttons"
+        android:text="10"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/ope20"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:background="@drawable/custom_buttons"
+        android:text="20"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/ope30"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:background="@drawable/custom_buttons"
+        android:text="30"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noCalc"
+        android:layout_marginTop="60dp"
+        />
+
+</LinearLayout>
